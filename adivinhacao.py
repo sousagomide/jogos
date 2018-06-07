@@ -8,7 +8,8 @@ chute = input("Digite o seu número: ")
 
 print("Você digitou", chute)
 
-if(numero_secreto == chute):
+if(numero_secreto == int(chute)):
     print("Acertou")
 else:
     print("Errou")
+print("Fim do jogo")
